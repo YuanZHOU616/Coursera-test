@@ -7,9 +7,6 @@
 <style>
 
 /********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
 
 h1 {
   margin-bottom: 15px;
@@ -36,4 +33,3 @@ p {
 </style>
 </head>
 </html>
-
