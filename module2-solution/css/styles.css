@@ -1,0 +1,55 @@
+
+nav {
+	display: block;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	background-color: green;
+}
+
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
+	font-size: 25px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+li>ul {
+	display: none;
+}
+
+li:hover ul {
+	display: block;
+	position: absolute;
+	left: 270px;
+	background-color: green;
+	margin:0px;
+}
+
+li:hover ul li a:link {
+	display: block;
+	margin-right: 30px;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	text-decoration: underline;
+	color: green;
+	font-size: 40px;
+	text-align: center;
+}
+
+img {
+  border-radius: 50%;
+}
